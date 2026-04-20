@@ -19,7 +19,7 @@ root = tk.Tk()
 root.title("Polymer Calc")
 root.geometry("300x200")
 
-tk.Label(root, text="Polymer (PE/PP/PET):").pack(pady=5)
+tk.Label(root, text="Polymer (PE/PP/PET/Nylon6):").pack(pady=5)
 entry_poly = tk.Entry(root)
 entry_poly.pack()
 

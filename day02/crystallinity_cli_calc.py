@@ -3,8 +3,8 @@ import sys
 POLYMER_DATA = {"PE": 293.0, "PP": 207.0, "PET": 140.0, "Nylon6": 230.0}
 
 if len(sys.argv) != 3:
-    print("Usage: python cli_calc.py [Polymer_Name] [Enthalpy_Value]")
-    print("Example: python cli_calc.py PE 150")
+    print("Usage: python crystallinity_cli_calc.py [Polymer_Name] [Enthalpy_Value]")
+    print("Example: python crystallinity_cli_calc.py PE 150")
 else:
     poly = sys.argv[1]
     try:
