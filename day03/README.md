@@ -1,5 +1,5 @@
 Tool: Gemini 1.5 Flash (Google)
-Interaction ProcessTo complete the modularization of this project, I provided the following instructions to the AI:
+To complete the modularization of this project, I provided the following instructions to the AI:
 1. Modularization & Refactoring:"Take the solution from Day 02 and move the 'business logic' (the crystallinity calculation) into a separate library file called crystallinity_logic.py.
 Ensure the formula $X_c = (\Delta H_m / \Delta H_m^\circ) \times 100$ and the polymer constants are centrally managed there.
 2. Interface Integration:"Now, update the three versions of the program (Interactive, CLI, and GUI) so they each use this shared library.
