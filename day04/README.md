@@ -4,6 +4,7 @@ Many polymers, such as Polyamides (Nylon), are hygroscopic and absorb moisture f
 This moisture adds "dead weight" to the sample, which leads to an underestimated enthalpy value in DSC tests.
 The Innovation:I instructed the system to implement a Moisture Compensation feature. The user can now input the moisture content percentage. 
 The calculator then isolates the dry polymer mass and corrects the enthalpy before calculating the final crystallinity percentage.
+
 The Formula:$$\Delta H_{corrected} = \frac{\Delta H_{measured}}{1 - (\text{Moisture}\% / 100)}$$3. 
 
 I used Gemini 3 Flash (by Google).
