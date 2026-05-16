@@ -44,7 +44,6 @@ def generate_dsc_plot(file_path):
         
         print("-" * 30)
         print(f"Analysis Results for: {file_path}")
-        print(f"Peak Temperature identified at: {peak_temp:.2f}°C")
         print("-" * 30)
         
         return True
@@ -53,5 +52,8 @@ def generate_dsc_plot(file_path):
         return False
 
 if __name__ == "__main__":
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    os.chdir(current_dir)
+
     filename = '10-ec-165c-annealing-18h-air.csv'
     generate_dsc_plot(filename)

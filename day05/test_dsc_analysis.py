@@ -5,6 +5,8 @@ from dsc_plotter import generate_dsc_plot
 
 # Test file name
 TEST_FILE = '10-ec-165c-annealing-18h-air.csv'
+current_dir = os.path.dirname(os.path.abspath(__file__))
+os.chdir(current_dir)
 
 def test_output_file_generation():
     """
