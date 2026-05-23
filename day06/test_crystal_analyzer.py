@@ -15,6 +15,8 @@ def test_crystal_download_and_volume():
         os.remove(expected_file)
         
     success, volume = download_and_analyze_crystal(crystal_id)
+
+    print(success, volume)
     
     assert success is True
     assert volume > 0, "Calculated volume should be a positive number"
@@ -27,3 +29,6 @@ def test_invalid_crystal_id():
     success, volume = download_and_analyze_crystal("0000000000")
     assert success is False
     assert volume == 0
+
+test_crystal_download_and_volume()
+test_invalid_crystal_id()
