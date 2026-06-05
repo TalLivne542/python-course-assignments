@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from core.polymer_logic import calculate_crystallinity
+from polymer_logic import calculate_crystallinity
 
 app = FastAPI(title="Polymer Crystallinity Web API")
 
