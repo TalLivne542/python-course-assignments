@@ -1,6 +1,6 @@
 import pytest
 from fastapi.testclient import TestClient
-from core.polymer_logic import calculate_crystallinity
+from polymer_logic import calculate_crystallinity
 from app import app
 
 # Create FastAPI TestClient for integration tests
