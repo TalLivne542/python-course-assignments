@@ -30,7 +30,7 @@ The project enforces a strict **Separation of Concerns (SoC)** workflow. All com
 ├── app.py                # Web Application Layer (FastAPI routes, request/response lifecycle)
 ├── test_project.py       # Dual-Layer Testing Suite (Isolated unit tests + API integration tests)
 └── requirements.txt      # System Dependency Manifest
-
+```
 
 AI tool- I used Gemini 3 Flash AI Prompts
 I am refactoring an existing Python script that handles scientific polymer crystallinity calculations. 
