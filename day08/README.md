@@ -1,4 +1,5 @@
 
+AI tool- I used Gemini 3 Flash AI Prompts
 I am refactoring an existing Python script that handles scientific polymer crystallinity calculations. 
 Please decouple the analytical logic from the rest of the application and place it into an isolated module at core/polymer_logic.py to serve as pure business logic. 
 Then, wrap this logic inside a modern, high-performance web service layer using the FastAPI framework in app.py. 
