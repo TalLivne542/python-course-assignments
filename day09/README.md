@@ -32,6 +32,7 @@ Ensure you have Python 3.8+ installed on your host system. Open your terminal wi
 ```bash
 pip install pandas numpy scikit-learn
 
+---
 
 # AI tool- I used Gemini 3 Flash AI
 Prompts - "I need to analyze the Concrete Compressive Strength dataset from Kaggle.
