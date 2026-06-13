@@ -31,8 +31,5 @@ To address this regression problem engineered a clean and automated data science
 Ensure you have Python 3.8+ installed on your host system. Open your terminal window and provision the required scientific computing and machine learning modules:
 ```bash
 pip install pandas numpy scikit-learn
-```bash
 ---
 
-AI tool- I used Gemini 3 Flash AI 
-"I need to analyze the Concrete Compressive Strength dataset from Kaggle. Write a clean Python script using scikit-learn that loads the dataset, preprocesses the features, splits the data into train and test sets, trains a Random Forest Regressor to predict the concrete strength, and evaluates the model using R-squared and RMSE."
