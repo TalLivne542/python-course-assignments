@@ -34,6 +34,3 @@ pip install pandas numpy scikit-learn
 
 ---
 
-# AI tool- I used Gemini 3 Flash AI
-Prompts - "I need to analyze the Concrete Compressive Strength dataset from Kaggle.
-Write a clean Python script using scikit-learn that loads the dataset, preprocesses the features, splits the data into train and test sets, trains a Random Forest Regressor to predict the concrete strength, and evaluates the model using R-squared and RMSE."
